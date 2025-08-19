@@ -3,48 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="p:domain_verify" content="22cd7aa26e4591e9b73987c0e35670b2" />
   <title>Gaming News</title>
+
+  <!-- Pinterest Tag -->
+  <script>
+    !function(e){
+      if(!window.pintrk){
+        window.pintrk = function () {
+          window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+        };
+        var n=window.pintrk;
+        n.queue=[],n.version="3.0";
+        var t=document.createElement("script");
+        t.async=!0,t.src=e;
+        var r=document.getElementsByTagName("script")[0];
+        r.parentNode.insertBefore(t,r)
+      }
+    }("https://s.pinimg.com/ct/core.js");
+    pintrk('load', '2614084661454', {em: '<user_email_address>'});
+    pintrk('page');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none;" alt=""
+         src="https://ct.pinterest.com/v3/?event=init&tid=2614084661454&pd[em]=<hashed_email_address>&noscript=1" />
+  </noscript>
+  <!-- end Pinterest Tag -->
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 40px;
-      background: #0f0f0f;
-      color: #f0f0f0;
+      background-color: #111;
+      color: #fff;
       text-align: center;
+      padding: 50px;
     }
+
     h1 {
-      font-size: 2.4em;
-      margin-bottom: 10px;
+      font-size: 2.5em;
+      color: #ffcc00;
     }
+
     p {
       font-size: 1.2em;
-      margin-bottom: 30px;
+      max-width: 600px;
+      margin: 20px auto;
     }
-    .links a {
-      display: inline-block;
-      margin: 10px;
+
+    .social-links {
+      margin-top: 30px;
+    }
+
+    .social-links a {
+      color: #ffcc00;
       text-decoration: none;
-      color: #00bfff;
+      margin: 0 15px;
       font-size: 1.2em;
-      border: 2px solid #00bfff;
-      padding: 10px 20px;
-      border-radius: 8px;
-      transition: all 0.3s;
     }
-    .links a:hover {
-      background: #00bfff;
-      color: black;
+
+    .social-links a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Gaming News</h1>
-  <p>Your source for regular updates from the gaming world. Follow us on social media:</p>
-  <div class="links">
-    <a href="https://www.youtube.com/@GameDrop_official" target="_blank">YouTube</a>
-    <a href="https://t.me/gamingnews_11" target="_blank">Telegram</a>
+  <h1>🎮 Gaming News</h1>
+  <p>Welcome to Gaming News! Stay updated with the latest headlines and short video stories from the gaming world.</p>
+
+  <div class="social-links">
+    <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+    <a href="https://wa.me/yourwhatsappnumber" target="_blank">WhatsApp</a>
     <a href="https://www.pinterest.com/s9353390/" target="_blank">Pinterest</a>
   </div>
 </body>
