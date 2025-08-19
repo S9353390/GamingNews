@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="p:domain_verify" content="22cd7aa26e4591e9b73987c0e35670b2"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="p:domain_verify" content="22cd7aa26e4591e9b73987c0e35670b2" />
   <title>Gaming News</title>
   <style>
     body {
